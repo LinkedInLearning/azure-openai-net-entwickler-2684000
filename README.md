@@ -1,49 +1,23 @@
-# Azure OpenAI für .NET-Entwickler:innen
+# Azure OpenAI in .NET
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `Azure OpenAI für .NET-Entwickler:innen`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Azure OpenAI in .NET`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
 ![COURSENAME][lil-thumbnail-url] 
 
-[COURSEDESCRIPTION]
-
-## Anleitung
-
-Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
-
-## Branches
-
-Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonvention lautet `Kapitel#_Video#`. Der Branch `02_03` beinhaltet zum Beispiel die Übungen für das dritte Video im zweiten Kapitel. 
-Einige Branches haben einen Anfangsstatus (`b`) für "beginning" und einen Endstatus (`e`). Der Branch mit dem `e` am Ende beinhaltet in diesem Fall stets den Code der am Ende des Videos zu sehen ist. Der `master` Branch beinhaltet den initialen Quellcode und wird nicht für die Übungen innerhalb des Kurses genutzt.
-
-Wenn Sie von einem Branch nach Änderungen zum nächsten Branch wechseln, erhalten Sie möglicherweise die folgende Meldung:
-
-```
-error: Your local changes to the following files would be overwritten by checkout:        [files]
-Please commit your changes or stash them before you switch branches.
-Aborting
-```
-
-Dieses Problem lösen Sie wie folgt:
-    Add changes to git using this command: git add .
-    Commit changes using this command: git commit -m "some message"
+Künstliche Intelligenz (KI), GenAI, ChatGPT und OpenAI als Grundlage sorgen für eine neue Ära in der der Softwareentwicklung. Aber wie können Sie OpenAI-Modelle in Ihren eigenen .NET-Programmen und in der Azure-Cloud zielführend einsetzen? Der erfahrene Microsoft-Engineer Robert Eichenseer bringt Ihnen in diesem LinkedIn Learning Kurs anhand von konkreten Beispielen und der Unterstützung von zahlreichen Test- und Verständnisfragen den Aufbau und die Einsatzmöglichkeiten von Azure OpenAI nahe. Sie erfahren alles Wissenswerte rund um Large Language Models (LLMs), semantische Suche, Embeddings, Azure Cognitive Services und vielen anderen beteiligten Tools und Technologien: Sehen Sie, wie Sie Ihre Softwareentwicklung durch den Einsatz von künstlicher Intelligenz auf ein neues Level bringen können.
 
 ## Installation
 
-1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - [list of requirements for course]
-2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
-3. [Course-specific instructions]
+1. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
 
 ### Autor
 
 **Robert Eichenseer**
 
-_[Berufsbezeichnung hier eintragen]_
+_Senior Program Manager, Software Engineer_
 
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/robert-eichenseer) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
-
-[1]: # (End of DE-Instruction ###############################################################################################)
+[lil-course-url]: https://www.linkedin.com/learning/azure-openai-in-dot-net
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQFU7NuDGIjnaw/learning-public-crop_675_1200/0/1695641165176?e=2147483647&v=beta&t=z1BmGq19A0EHvVMip3JIWYuvHV8BYMxk-TPOCXJq_Q4
